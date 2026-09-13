@@ -1,0 +1,1165 @@
+[
+  {
+    "file": "benchmark.ps1",
+    "dependencies": [
+      "sentence_transformers",
+      "fastembed",
+      "SentenceTransformer",
+      "TextEmbedding",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build-android.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build-vulkan.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitmodules",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmark.sh",
+    "dependencies": [
+      "crispembed",
+      "sentence_transformers",
+      "fastembed",
+      "SentenceTransformer",
+      "CrispEmbed",
+      "subprocess",
+      "TextEmbedding",
+      "json",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build-cuda.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitattributes",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build-ios.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build-macos.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [
+      "crispembed",
+      "CrispEmbed",
+      "package:crispembed/crispembed.dart"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LEARNINGS.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmark.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "rebuild.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "PLAN.md",
+    "dependencies": [
+      "crispembed",
+      "CrispEmbed"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CMakeLists.txt",
+    "dependencies": [
+      "lib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "Cargo.lock",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "build-windows.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "PERFORMANCE.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crispembed-sys/build.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crispembed-sys/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crispembed-sys/src/lib.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/export-all.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/upload_to_hf.py",
+    "dependencies": [
+      "crispembed",
+      "sys",
+      "huggingface_hub",
+      "CrispEmbed",
+      "HfApi",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/convert-decoder-embed-to-gguf.py",
+    "dependencies": [
+      "gguf",
+      "sys",
+      "AutoModel",
+      "WhisperFeatureExtractor",
+      "pathlib",
+      "huggingface_hub",
+      "Path",
+      "torch",
+      "numpy",
+      "transformers",
+      "hf_hub_download",
+      "json",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/quantize.py",
+    "dependencies": [
+      "gguf",
+      "sys",
+      "struct",
+      "numpy",
+      "traceback",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/convert-bert-to-gguf.py",
+    "dependencies": [
+      "importlib",
+      "gguf",
+      "sys",
+      "AutoModel",
+      "pathlib",
+      "huggingface_hub",
+      "Path",
+      "torch",
+      "numpy",
+      "transformers",
+      "hf_hub_download",
+      "json",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tools/quantize.cpp",
+    "dependencies": [
+      "cstdlib",
+      "cstdio",
+      "ggml.h",
+      "string",
+      "vector",
+      "gguf.h",
+      "map",
+      "cstring"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/cli/model_mgr.h",
+    "dependencies": [
+      "string"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/cli/model_mgr.cpp",
+    "dependencies": [
+      "cstdlib",
+      "cstdio",
+      "cctype",
+      "io.h",
+      "filesystem",
+      "string",
+      "TargetConditionals.h",
+      "direct.h",
+      "unistd.h",
+      "sys/stat.h",
+      "cstring",
+      "model_mgr.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/cli/main.cpp",
+    "dependencies": [
+      "utility",
+      "cstdio",
+      "algorithm",
+      "cmath",
+      "string",
+      "vector",
+      "fstream",
+      "limits",
+      "cstring",
+      "model_mgr.h",
+      "sstream",
+      "crispembed.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/demo/bidirlm_image_text.py",
+    "dependencies": [
+      "pathlib",
+      "sys",
+      "crispembed._binding",
+      "Path",
+      "CrispEmbed",
+      "numpy",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/demo/demo.py",
+    "dependencies": [
+      "sys",
+      "CrispEmbed",
+      "crispembed",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/demo/demo.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/demo/bidirlm_cross_modal.py",
+    "dependencies": [
+      "numpy",
+      "sys",
+      "crispembed._binding",
+      "Path",
+      "CrispEmbed",
+      "pathlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/server/server.cpp",
+    "dependencies": [
+      "atomic",
+      "httplib.h",
+      "cstdio",
+      "string",
+      "sstream",
+      "chrono",
+      "vector",
+      "model_mgr.h",
+      "mutex",
+      "crispembed.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/server/httplib.h",
+    "dependencies": [
+      "winsock2.h",
+      "condition_variable",
+      "unordered_set",
+      "zstd.h",
+      "brotli/encode.h",
+      "ifaddrs.h",
+      "memory",
+      "exception",
+      "netinet/tcp.h",
+      "arpa/inet.h",
+      "sstream",
+      "openssl/ssl.h",
+      "openssl/applink.c",
+      "utility",
+      "sys/stat.h",
+      "cctype",
+      "climits",
+      "functional",
+      "sys/un.h",
+      "zlib.h",
+      "netinet/in.h",
+      "ws2tcpip.h",
+      "unistd.h",
+      "poll.h",
+      "net/if.h",
+      "pthread.h",
+      "cstring",
+      "unordered_map",
+      "mutex",
+      "set",
+      "atomic",
+      "regex",
+      "random",
+      "wincrypt.h",
+      "sys/socket.h",
+      "array",
+      "CoreFoundation/CoreFoundation.h",
+      "iomanip",
+      "netdb.h",
+      "string",
+      "TargetConditionals.h",
+      "sys/mman.h",
+      "list",
+      "map",
+      "io.h",
+      "iostream",
+      "csignal",
+      "algorithm",
+      "Security/Security.h",
+      "openssl/err.h",
+      "openssl/evp.h",
+      "strings.h",
+      "brotli/decode.h",
+      "cassert",
+      "fcntl.h",
+      "openssl/x509v3.h",
+      "resolv.h",
+      "errno.h",
+      "thread"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flutter/crispembed/pubspec.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flutter/crispembed/example/feature_parity.dart",
+    "dependencies": [
+      "../lib/crispembed.dart",
+      "dart:io",
+      "dart:math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flutter/crispembed/lib/crispembed.dart",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flutter/crispembed/lib/src/crispembed.dart",
+    "dependencies": [
+      "package:ffi/ffi.dart",
+      "dart:io",
+      "dart:math",
+      "dart:typed_data",
+      "dart:ffi",
+      "crispembed_bindings.dart"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flutter/crispembed/lib/src/crispembed_bindings.dart",
+    "dependencies": [
+      "package:ffi/ffi.dart",
+      "dart:ffi"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/benchmark.py",
+    "dependencies": [
+      "resource",
+      "sys",
+      "sentence_transformers",
+      "SentenceTransformer",
+      "subprocess",
+      "argparse",
+      "numpy",
+      "os",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_bgem3.py",
+    "dependencies": [
+      "importlib",
+      "pathlib",
+      "sys",
+      "ctypes",
+      "FlagEmbedding",
+      "glob",
+      "Path",
+      "subprocess",
+      "numpy",
+      "BGEM3FlagModel",
+      "json",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_bidirlm_image_text_lite.py",
+    "dependencies": [
+      "transformers",
+      "crispembed._binding",
+      "get_class_from_dynamic_module",
+      "transformers.dynamic_module_utils",
+      "huggingface_hub",
+      "CrispEmbed",
+      "safetensors.torch",
+      "crispembed.image",
+      "numpy",
+      "json",
+      "preprocess_image",
+      "hf_hub_download",
+      "torch",
+      "os",
+      "AutoConfig",
+      "load_file"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/feature_parity.py",
+    "dependencies": [
+      "annotations",
+      "crispembed",
+      "pathlib",
+      "sys",
+      "Path",
+      "CrispEmbed",
+      "math",
+      "numpy",
+      "__future__",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_cli_parity.py",
+    "dependencies": [
+      "annotations",
+      "sys",
+      "Path",
+      "subprocess",
+      "math",
+      "pathlib",
+      "__future__",
+      "json",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_reranker.py",
+    "dependencies": [
+      "FlagReranker",
+      "importlib",
+      "sys",
+      "ctypes",
+      "FlagEmbedding",
+      "glob",
+      "numpy",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/benchmark_server.py",
+    "dependencies": [
+      "sys",
+      "urllib.request",
+      "sentence_transformers",
+      "SentenceTransformer",
+      "subprocess",
+      "numpy",
+      "time",
+      "json",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/bench_head2head.py",
+    "dependencies": [
+      "crispembed",
+      "pathlib",
+      "sys",
+      "sentence_transformers",
+      "fastembed",
+      "TextEmbedding",
+      "SentenceTransformer",
+      "Path",
+      "CrispEmbed",
+      "subprocess",
+      "numpy",
+      "time",
+      "json",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/bench_rerank.py",
+    "dependencies": [
+      "crispembed",
+      "typing",
+      "Dict",
+      "pathlib",
+      "sys",
+      "sentence_transformers",
+      "CrossEncoder",
+      "Path",
+      "CrispEmbed",
+      "argparse",
+      "math",
+      "numpy",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/debug_model.py",
+    "dependencies": [
+      "sys",
+      "sentence_transformers",
+      "AutoTokenizer",
+      "SentenceTransformer",
+      "subprocess",
+      "AutoConfig",
+      "numpy",
+      "transformers",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_vs_hf.py",
+    "dependencies": [
+      "importlib",
+      "sys",
+      "sentence_transformers",
+      "SentenceTransformer",
+      "subprocess",
+      "numpy",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/bench_rag.py",
+    "dependencies": [
+      "crispembed",
+      "typing",
+      "Dict",
+      "pathlib",
+      "sys",
+      "sentence_transformers",
+      "SentenceTransformer",
+      "Path",
+      "CrispEmbed",
+      "subprocess",
+      "math",
+      "numpy",
+      "time",
+      "json",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/benchmark_bidirlm.py",
+    "dependencies": [
+      "annotations",
+      "crispembed",
+      "pathlib",
+      "ctypes",
+      "Path",
+      "CrispEmbed",
+      "numpy",
+      "time",
+      "__future__",
+      "json",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_bidirlm_audio.py",
+    "dependencies": [
+      "soundfile",
+      "sys",
+      "get_class_from_dynamic_module",
+      "crispembed._binding",
+      "transformers.dynamic_module_utils",
+      "huggingface_hub",
+      "CrispEmbed",
+      "argparse",
+      "librosa",
+      "numpy",
+      "json",
+      "transformers",
+      "hf_hub_download",
+      "torch",
+      "safetensors.torch",
+      "AutoConfig",
+      "load_file"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_all_models.py",
+    "dependencies": [
+      "importlib",
+      "pathlib",
+      "sys",
+      "sentence_transformers",
+      "SentenceTransformer",
+      "Path",
+      "subprocess",
+      "numpy",
+      "os",
+      "argparse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_bidirlm_vision.py",
+    "dependencies": [
+      "sys",
+      "get_class_from_dynamic_module",
+      "ctypes",
+      "transformers.dynamic_module_utils",
+      "huggingface_hub",
+      "crispembed._binding",
+      "CrispEmbed",
+      "argparse",
+      "safetensors.torch",
+      "crispembed.image",
+      "numpy",
+      "json",
+      "preprocess_image",
+      "hf_hub_download",
+      "torch",
+      "transformers",
+      "AutoConfig",
+      "load_file"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_bidirlm_image_text.py",
+    "dependencies": [
+      "crispembed._binding",
+      "hf_hub_download",
+      "argparse",
+      "numpy",
+      "sys",
+      "Path",
+      "CrispEmbed",
+      "preprocess_image",
+      "transformers",
+      "safetensors.torch",
+      "AutoConfig",
+      "get_class_from_dynamic_module",
+      "huggingface_hub",
+      "torch",
+      "crispembed.image",
+      "pathlib",
+      "transformers.dynamic_module_utils",
+      "json",
+      "load_file"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_bidirlm_text.py",
+    "dependencies": [
+      "sys",
+      "get_class_from_dynamic_module",
+      "transformers.dynamic_module_utils",
+      "huggingface_hub",
+      "subprocess",
+      "AutoConfig",
+      "numpy",
+      "json",
+      "transformers",
+      "hf_hub_download",
+      "torch",
+      "safetensors.torch",
+      "argparse",
+      "load_file"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/crispembed.h",
+    "dependencies": [
+      "on",
+      "stdint.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/image_preprocess.cpp",
+    "dependencies": [
+      "image_preprocess.h",
+      "cstdio",
+      "algorithm",
+      "../ggml/examples/stb_image.h",
+      "cmath",
+      "cstring"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/tokenizer.cpp",
+    "dependencies": [
+      "algorithm",
+      "cctype",
+      "tokenizer.h",
+      "cstring",
+      "sstream"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/bidirlm_vision.cpp",
+    "dependencies": [
+      "visual.pos_embed.weight",
+      "cstdlib",
+      "ggml.h",
+      "algorithm",
+      "cstdio",
+      "core/gguf_loader.h",
+      "ggml-backend.h",
+      "cmath",
+      "ggml-alloc.h",
+      "visual.patch_embed.weight",
+      "visual.patch_embed.bias",
+      "string",
+      "bidirlm_vision.h",
+      "vector",
+      "gguf.h",
+      "map",
+      "ggml-cpu.h",
+      "cstring"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/bidirlm_audio.cpp",
+    "dependencies": [
+      "cstdlib",
+      "crisp_audio.h",
+      "cstdio",
+      "cmath",
+      "vector",
+      "cstring",
+      "crispembed.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/decoder_embed.cpp",
+    "dependencies": [
+      "algorithm",
+      "cstdio",
+      "cmath",
+      "ggml-alloc.h",
+      "string",
+      "vector",
+      "decoder_embed_internal.h",
+      "ggml-cpu.h",
+      "cstring",
+      "crispembed.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/image_preprocess.h",
+    "dependencies": [
+      "string",
+      "vector",
+      "stdint.h",
+      "stddef.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/bidirlm_vision.h",
+    "dependencies": [
+      "ggml.h",
+      "ggml-backend.h",
+      "string",
+      "vector",
+      "stddef.h",
+      "stdint.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/crispembed.cpp",
+    "dependencies": [
+      "cmath",
+      "memory",
+      "decoder_embed_internal.h",
+      "ggml.h",
+      "core/gguf_loader.h",
+      "vector",
+      "ggml-cpu.h",
+      "tokenizer.h",
+      "cstring",
+      "unordered_map",
+      "cstdio",
+      "ggml-backend.h",
+      "string",
+      "bidirlm_vision.h",
+      "map",
+      "model_mgr.h",
+      "crispembed.h",
+      "image_preprocess.h",
+      "algorithm",
+      "ggml-alloc.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/decoder_embed_internal.h",
+    "dependencies": [
+      "ggml.h",
+      "core/gguf_loader.h",
+      "ggml-backend.h",
+      "string",
+      "vector",
+      "tokenizer.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/decoder_embed.h",
+    "dependencies": [
+      "string",
+      "crispembed.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/tokenizer_spm.cpp",
+    "dependencies": [
+      "cstdio",
+      "algorithm",
+      "string",
+      "vector",
+      "cassert",
+      "tokenizer.h",
+      "cstring",
+      "unordered_map",
+      "cfloat"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/tokenizer_bpe.cpp",
+    "dependencies": [
+      "algorithm",
+      "climits",
+      "core/bpe.h",
+      "string",
+      "vector",
+      "tokenizer.h",
+      "cstring"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/tokenizer.h",
+    "dependencies": [
+      "string",
+      "cstdint",
+      "vector",
+      "unordered_map"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/core/mel.h",
+    "dependencies": [
+      "cstdint",
+      "vector"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/core/gguf_loader.h",
+    "dependencies": [
+      "cstdint",
+      "ggml.h",
+      "ggml-backend.h",
+      "string",
+      "vector",
+      "map",
+      "gguf.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/core/bpe.h",
+    "dependencies": [
+      "cstdint",
+      "climits",
+      "string",
+      "vector",
+      "cstring",
+      "unordered_map"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/core/gguf_loader.cpp",
+    "dependencies": [
+      "gguf_loader.h",
+      "cstdlib",
+      "sys/stat.h",
+      "cstdio",
+      "windows.h",
+      "cstdarg",
+      "fcntl.h",
+      "sys/mman.h",
+      "unistd.h",
+      "io.h",
+      "cstring"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "src/core/mel.cpp",
+    "dependencies": [
+      "algorithm",
+      "cmath",
+      "mel.h",
+      "vector",
+      "cstring"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crispembed/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crispembed/examples/feature_parity.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "crispembed/src/lib.rs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "python/crispembed/__init__.py",
+    "dependencies": [
+      "._binding",
+      "CrispEmbed"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "python/crispembed/image.py",
+    "dependencies": [
+      "annotations",
+      "typing",
+      "Optional",
+      "AutoImageProcessor",
+      "Image",
+      "numpy",
+      "transformers",
+      "__future__",
+      "PIL"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "python/crispembed/_binding.py",
+    "dependencies": [
+      "typing",
+      "Dict",
+      "pathlib",
+      "ctypes",
+      ".image",
+      "glob",
+      "Path",
+      "librosa",
+      "numpy",
+      "preprocess_image",
+      "platform",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]

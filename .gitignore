@@ -1,22 +1,22 @@
-build/
-__pycache__/
-*.pyc
-*.o
 *.a
-*.so
-*.dll
-*.gguf
 .bench-venv/
-.fastembed_cache/
-gguf-export
+build/
 build-avx/
 build-avx512/
 build-blas/
 build-llamafile/
-.env
 .claude/
-target/
-crispembed.local-backup/
-# Local Claude Code session notes — agent continuity, not human docs.
-# Project documentation lives in README.md, PLAN.md, LEARNINGS.md.
 CLAUDE.md
+crispembed.local-backup/
+*.dll
+.env
+.fastembed_cache/
+*.gguf
+gguf-export
+# Local Claude Code session notes — agent continuity, not human docs.
+*.o
+# Project documentation lives in README.md, PLAN.md, LEARNINGS.md.
+*.pyc
+__pycache__/
+*.so
+target/
